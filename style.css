@@ -1,0 +1,662 @@
+body{
+    padding:0;
+    margin:0;
+    font-family:Helvetica;
+}
+
+/*================ HEADER ===============*/
+
+#header{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    z-index: 500;
+    width: 100%;
+    height: 90px;
+    background-repeat: repeat-x;
+    background-image: url(images/plain-white-background.jpg);
+}
+#header h1{
+    float: left;
+    font-weight: 400;
+    font-size: 48px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left:20px;
+    color: rgb(59, 219, 120);
+    
+}
+
+#header a{
+    color: rgb(59, 219, 120);
+    float: right;
+    width: 10%;
+    padding-right: 50px;
+    text-decoration: none;
+    padding-top: 30px;
+}
+
+#header img{
+    float: left;
+    padding-left: 20px;
+    padding-top:10px ;
+    size: 8px;
+
+}
+
+#header a:hover{
+    color: rgb(7, 73, 29);
+}
+
+
+/*================ TOP-TABS ===============*/
+
+#tabs-top{
+    top: 90px;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    z-index: 500;
+    background-color: rgb(59, 219, 120);
+}
+
+#tabs-top a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    float: left;
+    font-weight: 700;
+    height:35px ;
+    width: 20%;
+    padding-top: 12px;
+    color: white;
+}
+
+#tabs-top a:hover{
+    color:rgb(7, 73, 29); 
+ }
+
+
+/*============== MAIN HOME ==============*/
+
+#main-home{
+    padding-top:130px ;
+    background: rgba(255,255,255, .8);
+    padding:10px;
+    margin-top: 90px ;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 10px;
+}
+#main-home img{
+    padding-top: 0px;
+    width: 100%;
+    padding-left: 0px;
+    height: 700px;
+   
+}
+
+#main-home h1{
+    text-align: center;
+    font-weight: 500;
+    color:rgb(7, 73, 29); 
+    font-family:Arial, Helvetica, sans-serif;
+}
+#main-home h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+
+}
+
+
+
+/*=============== BODY ================*/
+
+body {
+    
+    padding-top: 40px;
+}
+
+/*=============== STORE PAGE LINKS ================*/
+
+
+
+#store-links img{
+    padding-left: 340px;
+    padding-right: 300px;
+
+}
+
+#store-links h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#store-links h2{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#store-links a.button{
+    text-decoration: none;
+    margin: center;
+    text-align: center;
+    background-color: forestgreen;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+#store-links h1{
+    text-align: center;
+    font-weight: 500;
+    color:rgb(7, 73, 29); 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#store-links p{
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*================== STORE BOX ==================*/
+
+#store-box{
+    margin-top:90px;
+    background-repeat: repeat-y;
+    background-color: rgb(187, 187, 187);
+}
+#store-content{
+    padding-top:1px;
+    padding-bottom:50px;
+}
+
+/*================== STORE INFO ==================*/
+
+a.store-info{
+    margin:auto;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    height:90px;
+    display:block;
+    margin-top:12px;
+    padding:1px;
+}
+
+.store-info img{
+    float:left;
+    height:70px;
+    margin: 10px;
+}
+
+.store-info h3{
+    padding:0;
+    margin-bottom:0px;
+    color: rgb(7, 73, 29);;
+}
+
+.store-info p{
+    margin:0;
+    padding:0;
+    color: rgb(7, 73, 29);
+}
+
+.store-info img.right{
+    float: right;
+    height: 40px;
+    margin-top: 25px;
+}
+
+/*=============== BOTTOM TAB ================*/
+
+.bottom-tab{
+    background-image: url(images/dark-green-tab.png);
+    width: 100%;
+    
+}
+
+.bottom-tab a{
+    text-decoration: none;
+    color:white; 
+}
+
+
+
+/*=============== MAP CONTENT ================*/
+
+#map-content{
+    padding-top: 90px;
+
+}
+
+ol{
+    font-weight:700 ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+/*=============== GAME ================*/
+
+.game{
+    padding-left:90px;
+}
+
+/*=============== GAME LOGO ================*/
+
+.game-logo{
+    padding-top:100px;
+}
+
+/*=============== GAME HOME ================*/
+a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: forestgreen;
+}
+b{
+    padding-left:650px ;
+}
+/*=============== GAME SPECIALS ================*/
+
+#game-specials{
+    padding-left:90px;
+    color: rgb(7, 73, 29);
+     
+}
+#game-specials h1{
+    color: black;
+    padding-left: 450px;
+}
+#game-specials p{
+    color:black;
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+
+/*=============== LEWIS ================*/
+
+.lewis{
+    padding-left:120px;
+}
+
+
+
+
+/*=============== LEWIS LOGO ================*/
+
+.lewis-logo{
+    padding-top:90px;
+}
+
+/*=============== LEWIS SPECIALS ================*/
+
+#lewis-specials{
+    padding-left:120px;
+    color: rgb(7, 73, 29);
+     
+}
+#lewis-specials h1{
+    color: black;
+    padding-left: 370px;
+}
+#lewis-specials p{
+    color:black;
+    font-weight: 600;
+    padding-right: 200px;
+}
+
+/*=============== TOTAL SPORT ================*/
+
+.total-sport{
+    padding-left:200px;
+}
+
+/*=============== TOTAL SPORT HOME ================*/
+a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: forestgreen;
+}
+b{
+    padding-left:650px ;
+} 
+
+/*=============== TOTAL SPORT LOGO ================*/
+
+.total-sport-logo{
+    padding-top:100px;
+}
+
+/*=============== TOTAL SPORT SPECIALS ================*/
+
+#total-sport-specials{
+    padding-left:200px;
+    color: rgb(0, 110, 255);
+    font-weight: 600;
+     
+}
+#total-sport-specials h1{
+    color: black;
+    padding-left: 350px;
+}
+#total-sport-specials p{
+    color:black;
+    font-weight: 600;
+    padding-right: 200px;
+}
+
+/*=============== SPAR ================*/
+
+.spar{
+    padding-left:250px;
+}
+
+/*=============== SPAR HOME ================*/
+a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: forestgreen;
+}
+b{
+    padding-left:650px ;
+}
+
+/*=============== SPAR LOGO ================*/
+
+.spar-logo{
+    padding-top:90px;
+}
+
+/*=============== SPAR SPECIALS ================*/
+
+#spar-specials{
+    padding-left:250px;
+    color: rgb(7, 73, 29);
+     
+}
+#spar-specials h1{
+    color: rgb(7, 73, 29);
+    padding-left: 300px;
+}
+#spar-specials p{
+    color:black;
+    font-weight: 600;
+    padding-right: 300px;
+}
+
+/*=============== MUGG BEAN ================*/
+
+
+/*=============== MUGG BEAN HOME ================*/
+a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: forestgreen;
+}
+b{
+    padding-left:650px ;
+}
+
+/*=============== MUGG BEAN LOGO ================*/
+
+.mugg-bean-logo{
+    padding-top:100px;
+}
+
+/*=============== MUGG BEAN SPECIALS ================*/
+
+#mugg-bean-specials{
+    font-weight: 600;
+    color: black;
+    font-style: italic;
+     
+}
+#mugg-bean-specials h1{
+    color: black;
+    text-align: center;
+}
+#mugg-bean-specials p{
+    color:black;
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+/*=============== STERNS ================*/
+
+.sterns{
+    padding-left:250px;
+}
+
+/*=============== STERNS HOME ================*/
+a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: forestgreen;
+}
+b{
+    padding-left:650px ;
+}
+
+/*=============== STERNS LOGO ================*/
+
+.sterns-logo{
+    padding-top:100px;
+}
+
+/*=============== STERNS SPECIALS ================*/
+
+#sterns-specials{
+    padding-left:250px;
+    color: black; 
+    font-weight: 600;
+    
+     
+}
+#sterns-specials h1{
+    color: black;
+    padding-left: 300px;
+}
+#sterns-specials p{
+    color:black;
+    font-weight: 600;
+    padding-right: 300px;
+}
+
+/*=============== MOVIES ================*/
+
+.movies{
+    padding-left:150px;
+}
+
+/*=============== MOVIES HOME ================*/
+a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: forestgreen;
+}
+b{
+    padding-left:650px ;
+}
+
+/*=============== MOVIES LOGO ================*/
+
+.movies-logo{
+    padding-top:100px;
+}
+
+/*=============== MOVIES SPECIALS ================*/
+
+#movies-specials{
+    padding-left:150px;
+    color: black; 
+    font-weight: 600;
+    
+     
+}
+#movies-specials h1{
+    color: black;
+    padding-left: 380px;
+}
+
+/*=============== NAVIGATIONS ================*/
+a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: forestgreen;
+    
+}
+b{
+    text-align: center;
+    padding-left:80px;
+
+}
+
+/*=============== NAVI BUTTONS ================*/
+
+#navi-buttons{
+    padding-left:400px ;
+}
+
+/*=============== ABOUT INFO ================*/
+#about-info{
+    padding-left:40px;
+}
+p{
+    padding-top: 60px;
+}
+#about-info img{
+    padding-left: 30px;
+    padding-top: 100px;
+}
+/*=============== CONTACT INFO ================*/
+#contact-info{
+    padding-left:40px;
+}
+p{
+    padding-top: 90px;
+}
+#contact-info img{
+    padding-left: 30px;
+    padding-top: 100px;
+}
+
+/*=============== AVATAR ================*/
+
+#avatar{
+
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 100px;
+    
+}
+table{
+    text-align: center;
+    
+    
+}
+
+#description p{
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+/*=============== MORBIUS ================*/
+
+#morbius{
+
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 100px;
+    
+}
+table{
+    text-align: center;
+    
+    
+}
+
+#description p{
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+/*=============== SCREAM ================*/
+
+#scream{
+
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 100px;
+    
+}
+table{
+    text-align: center;
+    
+    
+}
+
+#description p{
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+/*=============== SPIDER MAN ================*/
+
+#spider-man{
+
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 100px;
+    
+}
+table{
+    text-align: center;
+    
+    
+}
+
+#description p{
+    font-size: medium;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
